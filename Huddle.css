@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Open Sans', sans-serif;   
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+body header{
+    height: 26%;
+    width: 100%;
+    background-image:url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+.A{
+    display: flex;
+    flex-direction: row;   
+}
+
+.A img{
+    margin: 25px 1150px 25px 30px;
+    height: 17px;
+    width: 100px;
+}
+.A .ButtonTop{
+   height: 25px;
+   width: 150px;
+   border-radius: 15px;
+   margin: 25px 12px 15px 10px;
+   color: black;
+   font-weight: 700;
+   border: none;
+   background-color: white;
+   box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+}
+.B{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    
+}
+.B .B1{
+    width: 50%;
+}
+.B .B2{
+    width: 50%;
+}
+.B1 .B1head{
+    font-size: 50px;
+    margin: 150px 10px 50px 80px;
+}
+
+.B1 p{
+    font-size: 20px;
+    width: 600px;
+    margin: 1px 10px 50px 80px;
+    line-height: 30px;
+}
+.B1 .middlebutton{
+    box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+    border-radius: 45px;
+    margin: 1px 10px 25px 80px;
+    height: 80px;
+    width: 350px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    background-color: hsl(322, 100%, 66%)  
+}
+.B1 .middlebutton:hover{
+    height: 100px;
+    width: 370px;
+    transition-delay: 300ms;
+}
+.B2 .B1img{
+    height: 450px;
+    width: 600px;
+}
+
+body main{
+    margin-top: 100px;
+    height: 40%;
+    width: 80%;
+    margin-bottom: 200px;
+}
+main .C{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: rgb(245, 245, 245);
+    border-style: ridge;
+    box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+}
+
+.C .C1{
+    width: 50%;
+}
+
+.C1 .Chead{
+    font-size: 40px;
+    margin: 150px 10px 50px 60px;
+}
+
+.C1 .Cbody{
+    font-size: 20px;
+    width: 700px;
+    margin: 1px 10px 50px 60px;
+    line-height: 30px;
+}
+.C .C2{
+    width: 50%;
+}
+.C2 .cimg{
+    height: 550px;
+    width: 600px;
+}
+
+main .D{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: rgb(245, 245, 245);
+    border-style: ridge;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+}
+
+.D .D1{
+    width: 50%;
+}
+
+.D2 .Dhead{
+    font-size: 40px;
+    margin: 200px 10px 50px 40px;
+}
+
+.D2 .Dbody{
+    font-size: 20px;
+    width: 600px;
+    margin: 1px 10px 50px 40px;
+    line-height: 30px;
+}
+.D .D2{
+    width: 50%;
+}
+.D1 .dimg{
+    height: 550px;
+    width: 600px;
+    margin: 1px 10px 50px 50px;
+}
+main .E{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: rgb(245, 245, 245);
+    border-style: ridge;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+}
+
+.E .E1{
+    width: 50%;
+}
+
+.E1 .Ehead{
+    font-size: 40px;
+    margin: 200px 10px 50px 60px;
+}
+
+.E1 .Ebody{
+    font-size: 20px;
+    width: 700px;
+    margin: 1px 10px 50px 60px;
+    line-height: 30px;
+}
+.E .E2{
+    width: 50%;
+}
+.E2 .eimg{
+    height: 550px;
+    width: 600px;
+}
+
+body footer{
+    background-color: hsl(208, 11%, 55%);
+    width: 100%;
+    height: 34%;
+    padding-top: 40px;
+    position: relative;
+    margin-left: 2%;
+}
+footer .G{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.G .gfoot1{
+    font-size: 12px;
+    width: 200px;
+    margin: 1px 200px 1px 200px;
+    
+}
+
+.gfoot1 .footerlogo{
+    display: flex;
+    flex-direction: column;
+    height: 17px;
+    width: 100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.gfoot1 .aa{
+    display: flex;
+    gap: 15px; 
+    margin-bottom: 5px;  
+    color: white; 
+}
+
+
+.gfoot1 .bb{
+    display: flex;
+    gap: 15px;
+    color: white;
+    margin-bottom: 5px;      
+}
+
+
+.gfoot1 .cc{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px; 
+    color: white;     
+}
+.G .gfoot2{
+    font-size: 12px;
+    width: 100px;
+    margin: 50px 200px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+
+.G .gfoot3{
+    font-size: 12px;
+    width: 10px;
+    margin: 50px 0px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    color: white;
+}
+
+.G .gfoot4{
+    font-size: 12px;
+    width: 200px;
+    height: 20px;
+    margin: 50px 0px 1px 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px; 
+    color: white;
+}
+.gfoot4 .gfoot5{
+    font-size: 8px;
+    width: 1000px;
+    height: 20px;
+    margin: 60px 0px 1px -70px;
+    gap: 5px; 
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.F{
+    height: 100px;
+    position: absolute;
+    padding: 2%;
+    top: -38%;
+    left: 35%;
+    right: 40%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+}
+.buttonbottom{
+    border-radius: 45px;
+    height: 50px;
+    width: 350px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 3px 0px hsl(208, 11%, 55%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    background-color: hsl(322, 100%, 66%)
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:400px) {
+    body{
+        height: 100%;
+        width: 700%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    body header{
+        height: 26%;
+        width: 100%;
+        background-size: cover;
+        background-image:url(bg-hero-desktop.svg);
+        background-color: hsl(193, 100%, 96%);
+    }
+    .A{
+        width: 100%;
+        display: flex;
+        flex-direction: row;   
+    }
+    
+    .A img{
+        margin: 25px 1250px 25px 30px;
+        height: 17px;
+        width: 100px;
+    }
+    .A .ButtonTop{
+       height: 25px;
+       width: 150px;
+       border-radius: 15px;
+       margin: 25px 12px 15px 10px;
+       color: black;
+       font-weight: 700;
+       border: none;
+       background-color: white;
+       box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+    }
+    .B{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .B .B1{
+        width: 50%;
+    }
+    .B .B2{
+        width: 50%;
+    }
+    .B1 .B1head{
+        font-size: 20px;
+        margin: 150px 10px 50px 80px;
+    }
+    
+    .B1 p{
+        font-size: 20px;
+        width: 600px;
+        margin: 1px 10px 50px 450px;
+        line-height: 30px;
+    }
+    .B1 .middlebutton{
+        box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+        border-radius: 45px;
+        margin: 1px 10px 250px 80px;
+        height: 80px;
+        width: 350px;
+        color: white;
+        font-weight: 700;
+        border: none;
+        background-color: hsl(322, 100%, 66%)  
+    }
+    .B1 .middlebutton:hover{
+        height: 100px;
+        width: 370px;
+        transition-delay: 300ms;
+    }
+    .B2 .B1img{
+        height: 450px;
+        width: 600px;
+        margin-left: 100px;
+    }
+    
+    body main{
+        margin-top: 100px;
+        height: 40%;
+        width: 80%;
+        margin-bottom: 200px;
+    }
+    main .C{
+        width: 30%;
+        margin-left: 100px;
+        height: 33.3%;
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 12px;
+        border-width: 2px;
+        border-color: rgb(245, 245, 245);
+        border-style: ridge;
+        box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+    }
+    
+    .C .C1{
+        width: 50%;
+    }
+    
+    .C1 .Chead{
+        font-size: 40px;
+        margin: 150px 10px 50px 60px;
+    }
+    
+    .C1 .Cbody{
+        font-size: 20px;
+        width: 700px;
+        margin: 1px 10px 50px 60px;
+        line-height: 30px;
+    }
+    .C .C2{
+        width: 50%;
+    }
+    .C2 .cimg{
+        height: 550px;
+        width: 600px;
+    }
+    
+    main .D{
+        width: 30%;
+        margin-left: 100px;
+        height: 33.3%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        border-width: 2px;
+        border-color: rgb(245, 245, 245);
+        border-style: ridge;
+        margin-top: 20px;
+        box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+    }
+    
+    .D .D1{
+        width: 50%;
+    }
+    
+    .D2 .Dhead{
+        font-size: 40px;
+        margin: 200px 10px 50px 40px;
+    }
+    
+    .D2 .Dbody{
+        font-size: 20px;
+        width: 600px;
+        margin: 1px 10px 50px 40px;
+        line-height: 30px;
+    }
+    .D .D2{
+        width: 50%;
+    }
+    .D1 .dimg{
+        height: 550px;
+        width: 600px;
+        margin: 1px 10px 50px 50px;
+    }
+    main .E{
+        width: 30%;
+        margin-left: 100px;
+        height: 33.3%;
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 12px;
+        border-width: 2px;
+        border-color: rgb(245, 245, 245);
+        border-style: ridge;
+        margin-top: 20px;
+        box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+    }
+    
+    .E .E1{
+        width: 50%;
+    }
+    
+    .E1 .Ehead{
+        font-size: 40px;
+        margin: 200px 10px 50px 60px;
+    }
+    
+    .E1 .Ebody{
+        font-size: 20px;
+        width: 700px;
+        margin: 1px 10px 50px 60px;
+        line-height: 30px;
+    }
+    .E .E2{
+        width: 50%;
+    }
+    .E2 .eimg{
+        height: 550px;
+        width: 600px;
+    }
+    
+    body footer{
+        background-color: hsl(208, 11%, 55%);
+        width: 25%;
+        height: 1000px;
+        padding-top: 40px;
+        position: relative;
+        margin-right: 1400px;
+        margin-bottom: 300px;
+    }
+    footer .G{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .G .gfoot1{
+        font-size: 12px;
+        width: 200px;
+        margin: 1px 200px 1px 200px;
+        
+    }
+    
+    .gfoot1 .footerlogo{
+        display: flex;
+        flex-direction: column;
+        height: 17px;
+        width: 100px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .gfoot1 .aa{
+        display: flex;
+        gap: 15px; 
+        margin-bottom: 5px;  
+        color: white; 
+    }
+    
+    
+    .gfoot1 .bb{
+        display: flex;
+        gap: 15px;
+        color: white;
+        margin-bottom: 5px;      
+    }
+    
+    
+    .gfoot1 .cc{
+        margin-bottom: 30px;
+        display: flex;
+        gap: 15px; 
+        color: white;     
+    }
+    .G .gfoot2{
+        font-size: 12px;
+        width: 100px;
+        margin: 50px 200px 1px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: white;
+    }
+    
+    .G .gfoot3{
+        font-size: 12px;
+        width: 10px;
+        margin: 50px 0px 1px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px; 
+        color: white;
+    }
+    
+    .G .gfoot4{
+        font-size: 12px;
+        width: 200px;
+        height: 20px;
+        margin: 50px 0px 1px 300px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px; 
+        color: white;
+    }
+    .gfoot4 .gfoot5{
+        font-size: 8px;
+        width: 1000px;
+        height: 20px;
+        margin: 60px 0px 1px -70px;
+        gap: 5px; 
+        color: white;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .F{
+        height: 100px;
+        position: absolute;
+        padding: 2%;
+        top: -38%;
+        left: 35%;
+        right: 40%;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 0px hsl(208, 11%, 55%);
+    }
+    .buttonbottom{
+        border-radius: 45px;
+        height: 50px;
+        width: 350px;
+        margin-top: 15px;
+        box-shadow: 3px 3px 3px 0px hsl(208, 11%, 55%);
+        color: white;
+        font-weight: 700;
+        border: none;
+        background-color: hsl(322, 100%, 66%)
+    }
+    h2{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    
+}
+
